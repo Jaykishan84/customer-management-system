@@ -19,6 +19,6 @@ public class RentDataApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		this.repo.save(new AppUser("root", "root@gmail.com", "root"));
+		this.repo.save(new AppUser("root", "root@gmail.com",9999999999L, "root"));
 	}
 }
